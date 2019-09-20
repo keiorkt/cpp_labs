@@ -111,10 +111,9 @@ int check(char row, int col) {
 
 	for (int i = 0; i < 3; ++i) {
 		for (int j = 0; j < 3; ++j) {
-			if (!grid[i][j]) {
+			if (!grid[i][j])
 				zeroPlace[0] = i;
 				zeroPlace[1] = j;
-			}
 		}
 	}
 
@@ -146,7 +145,6 @@ int check(char row, int col) {
  */
 void operate(char row, int col) {
 	// Complete this function by putting your code below
-	cout << "Operating" << endl;
 }
 
 /*
@@ -154,6 +152,7 @@ void operate(char row, int col) {
  */
 bool win() {
 	// Complete this function by putting your code below
+	return false;
 }
 
 // Game loop.
