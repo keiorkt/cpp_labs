@@ -40,7 +40,7 @@ int main() {
 		 * - Lastly, determine who won and set player_initiative to the corresponding value.
 		 */
 		int p1_hand_int, p2_hand_int;
-    Hand p1_hand = Undefined; Hand p2_hand = Undefined;
+    Hand p1_hand = Undefined, p2_hand = Undefined;
 
     while (player_initiative == None) {
       while (p1_hand == Undefined) {
@@ -87,7 +87,6 @@ int main() {
 		 * - Use a Loop so that we don't have to duplicate code for both Players.
 		 */
 
-    current_player = player_initiative;
     if (player_initiative == Player1) {
       current_player  = Player1;
       opponent_player = Player2;
@@ -96,7 +95,7 @@ int main() {
       opponent_player = Player1;
     }
 
-		while (winner == None) {
+		for (int i = 0; i < 2; ++i) {
 			cout << '\n' << "--------------------------------------------------" << endl;
 			cout << "Player1: Health x " << p1_health << " | Rockets x " << p1_num_rockets << " | Barriers x " << p1_num_barriers << endl;
 			cout << "Player2: Health x " << p2_health << " | Rockets x " << p2_num_rockets << " | Barriers x " << p2_num_barriers << endl;
@@ -226,27 +225,29 @@ int main() {
 					 */
 
           default:
+           invalid_input = true;
            cout << "Invalid input. Please enter again." << endl;
-           continue;
 				}
-
-				if (winner != None) {
-					cout << "Congratz! Player" << winner << ". You win!" << endl;
-					break;
-				}
-
-        if (current_player == Player1) {
-          current_player = Player2;
-          opponent_player = Player1;
-        } else {
-          current_player = Player1;
-          opponent_player = Player2;
-        }
 			} while (invalid_input);
-		}
+
+      if (winner != None) {
+        cout << "Congratz! Player" << winner << ". You win!" << endl;
+        break;
+      }
+
+      if (current_player == Player1) {
+        current_player = Player2;
+        opponent_player = Player1;
+      } else {
+        current_player = Player1;
+        opponent_player = Player2;
+      }
+ 		}
+    current_player = None;
+    opponent_player = None;
+    player_initiative = None;
 	}
 
 	system("pause");
 	return 0;
 }
-
