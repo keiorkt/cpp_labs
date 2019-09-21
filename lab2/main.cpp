@@ -17,6 +17,12 @@ int grid[3][3];
 const int MAX_WIDTH = 7;
 const int ELEMENT_NUM = 9;
 
+void generateForDemo() {
+    grid[0][0]=2;grid[0][1]=3;grid[0][2]=0;
+    grid[1][0]=1;grid[1][1]=4;grid[1][2]=5;
+    grid[2][0]=7;grid[2][1]=8;grid[2][2]=6;
+}
+
 void display() {
 	cout << "\n\n";
 	cout << left;
@@ -67,9 +73,8 @@ void generate() {
 		int numOfReversePairs = 0;
 		for (int i = 0; i < ELEMENT_NUM-1; ++i) {
 			for (int j = i+1; j < ELEMENT_NUM-1; ++j) {
-				if (gridArrFlat[j] > gridArrFlat[i]) {
+				if (gridArrFlat[j] > gridArrFlat[i])
 					++numOfReversePairs;
-				}
 			}
 		}
 
@@ -102,34 +107,26 @@ int check(char row, int col) {
 	// Complete this function by putting your code below
 	int rowInt = row - 65;
 	int zeroPlace[2];
-	int selectedPlace[2] = {rowInt, col};
-	int canMovePlace[4][2];
 
-	if (rowInt < 0 || rowInt > 3 || col < 0 || col > 3) {
+	if (rowInt < 0 || rowInt > 2 || col < 0 || col > 2) {
 		return -1;
 	}
 
 	for (int i = 0; i < 3; ++i) {
 		for (int j = 0; j < 3; ++j) {
-			if (!grid[i][j])
+			if (!grid[i][j]) {
 				zeroPlace[0] = i;
 				zeroPlace[1] = j;
+			}
 		}
 	}
 
-	canMovePlace[0][0] = zeroPlace[0];
-	canMovePlace[0][1] = zeroPlace[1]-1;
-	canMovePlace[1][0] = zeroPlace[0]-1;
-	canMovePlace[1][1] = zeroPlace[1];
-	canMovePlace[2][0] = zeroPlace[0]+1;
-	canMovePlace[2][1] = zeroPlace[1];
-	canMovePlace[3][0] = zeroPlace[0];
-	canMovePlace[3][1] = zeroPlace[1]+1;
+	if (rowInt == zeroPlace[0] && col == zeroPlace[1]) {
+		return 0;
+	}
 
-	for (int i = 0; i < 4; ++i) {
-		if (canMovePlace[i][0] == selectedPlace[0] && canMovePlace[i][1] == selectedPlace[1]) {
-			return 1;
-		}
+	if (rowInt == zeroPlace[0] || col == zeroPlace[1]) {
+		return 1;
 	}
 
 	return 0;
@@ -145,6 +142,43 @@ int check(char row, int col) {
  */
 void operate(char row, int col) {
 	// Complete this function by putting your code below
+	int rowInt = row - 65;
+	int zeroPlace[2];
+	int selectedVal = grid[rowInt][col];
+	bool isVertical;
+
+	for (int i = 0; i < 3; ++i) {
+		for (int j = 0; j < 3; ++j) {
+			if (!grid[i][j]) {
+				zeroPlace[0] = i;
+				zeroPlace[1] = j;
+			}
+		}
+	}
+
+	// may not be needed
+	isVertical = (col == zeroPlace[1]);
+
+	// if is adjacent
+	int rowDiff = rowInt - zeroPlace[0];
+	int colDiff = col - zeroPlace[1];
+
+	if (rowDiff == 2 || rowDiff == -2) {
+		int betweenVal = grid[1][col];
+		grid[1][col] = 0;
+		grid[zeroPlace[0]][zeroPlace[1]] = betweenVal;
+		grid[1][col] = selectedVal;
+		grid[rowInt][col] = 0;
+	} else if (colDiff == 2 || colDiff == -2) {
+		int betweenVal = grid[rowInt][1];
+		grid[rowInt][1] = 0;
+		grid[zeroPlace[0]][zeroPlace[1]] = betweenVal;
+		grid[rowInt][1] = selectedVal;
+		grid[rowInt][col] = 0;
+	}	else {
+		grid[rowInt][col] = 0;
+		grid[zeroPlace[0]][zeroPlace[1]] = selectedVal;
+	}
 }
 
 /*
@@ -152,13 +186,25 @@ void operate(char row, int col) {
  */
 bool win() {
 	// Complete this function by putting your code below
-	return false;
+	int correctCount = 0;
+	for (int i = 0; i < 3; ++i) {
+		for (int j = 0; j < 3; ++j) {
+			if (i == 2 && j == 2 && !grid[i][j]) {
+				++correctCount;
+			} else {
+				correctCount += (grid[i][j] == 3*i+j+1) ? 1 : 0;
+			}
+		}
+	}
+
+	return (correctCount == 9);
 }
 
 // Game loop.
 int main() {
-	srand(unsigned(time(0))); // Initialize pseudo-random number generator.
-	generate();
+	srand(unsigned(time(nullptr))); // Initialize pseudo-random number generator.
+	// generate();
+	generateForDemo();
 
 	while(!win()) {
 		display();
