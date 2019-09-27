@@ -23,6 +23,17 @@ void generateForDemo() {
     grid[2][0]=7;grid[2][1]=8;grid[2][2]=6;
 }
 
+void findZeroPlace(int zeroPlace[2]) {
+	for (int i = 0; i < 3; ++i) {
+		for (int j = 0; j < 3; ++j) {
+			if (!grid[i][j]) {
+				zeroPlace[0] = i;
+				zeroPlace[1] = j;
+			}
+		}
+	}
+}
+
 void display() {
 	cout << "\n\n";
 	cout << left;
@@ -112,14 +123,7 @@ int check(char row, int col) {
 		return -1;
 	}
 
-	for (int i = 0; i < 3; ++i) {
-		for (int j = 0; j < 3; ++j) {
-			if (!grid[i][j]) {
-				zeroPlace[0] = i;
-				zeroPlace[1] = j;
-			}
-		}
-	}
+	findZeroPlace(zeroPlace);
 
 	if (rowInt == zeroPlace[0] && col == zeroPlace[1]) {
 		return 0;
@@ -140,26 +144,15 @@ int check(char row, int col) {
 
   - Inputs: row and col refer to the row number and column number of the click
  */
+
 void operate(char row, int col) {
 	// Complete this function by putting your code below
 	int rowInt = row - 65;
 	int zeroPlace[2];
 	int selectedVal = grid[rowInt][col];
-	bool isVertical;
 
-	for (int i = 0; i < 3; ++i) {
-		for (int j = 0; j < 3; ++j) {
-			if (!grid[i][j]) {
-				zeroPlace[0] = i;
-				zeroPlace[1] = j;
-			}
-		}
-	}
+	findZeroPlace(zeroPlace);
 
-	// may not be needed
-	isVertical = (col == zeroPlace[1]);
-
-	// if is adjacent
 	int rowDiff = rowInt - zeroPlace[0];
 	int colDiff = col - zeroPlace[1];
 
@@ -186,6 +179,7 @@ void operate(char row, int col) {
  */
 bool win() {
 	// Complete this function by putting your code below
+	// Use i%3 
 	int correctCount = 0;
 	for (int i = 0; i < 3; ++i) {
 		for (int j = 0; j < 3; ++j) {
@@ -203,8 +197,8 @@ bool win() {
 // Game loop.
 int main() {
 	srand(unsigned(time(nullptr))); // Initialize pseudo-random number generator.
-	// generate();
-	generateForDemo();
+	generate();
+	// generateForDemo();
 
 	while(!win()) {
 		display();
