@@ -7,28 +7,52 @@
 
 #include "Queue_Linked_List.h"
 
-// struct Node {
-// 	Person* person = nullptr;
-// 	Node* next = nullptr;
-// };
+void queue_linked_list_enqueue(Queue_Linked_List& queue_linked_list, Person* person) {
+  Node* frontNode = queue_linked_list.front;
+  Node* backNode = queue_linked_list.back;
 
-// struct Queue_Linked_List {
-// 	Node* front = nullptr;
-// 	Node* back = nullptr;
-// };
+  Node* newNode = new Node;
+  newNode->person = person;
 
-void queue_linked_list_enqueue(Queue_Linked_List&, Person*) {
-  // create if head is nullptr, otherwise insert to the back last
-  return;
+  if (queue_linked_list_is_empty(queue_linked_list)) {
+    queue_linked_list.front = newNode;
+    return;
+  }
+
+  if (backNode == nullptr) {
+    frontNode->next = newNode;
+    queue_linked_list.back = newNode;
+    return;
+  }
+
+  backNode->next = newNode;
+  queue_linked_list.back = newNode;
 }
 
-void queue_linked_list_dequeue(Queue_Linked_List&) {
-  // identify the back node and delete
-  return;
+void queue_linked_list_dequeue(Queue_Linked_List& queue_linked_list) {
+  if (queue_linked_list_is_empty(queue_linked_list)) return;
+
+  Node* frontNode = queue_linked_list.front;
+  Node* backNode = queue_linked_list.back;
+  Node* secondNode = frontNode->next;
+
+  if (secondNode == nullptr)
+    queue_linked_list.front = nullptr;
+  else {
+    if (secondNode == backNode)
+      queue_linked_list.back = nullptr;
+
+    queue_linked_list.front = secondNode;
+  }
+
+  delete frontNode;
+  frontNode = nullptr;
 }
 
-// simply return the front person pointer
-const Person* queue_linked_list_front(const Queue_Linked_List&);
+const Person* queue_linked_list_front(const Queue_Linked_List& queue_linked_list) {
+  return queue_linked_list.front->person;
+}
 
-// if front is empty return true
-bool queue_linked_list_is_empty(const Queue_Linked_List&);
+bool queue_linked_list_is_empty(const Queue_Linked_List& queue_linked_list) {
+  return queue_linked_list.front == nullptr;
+}
