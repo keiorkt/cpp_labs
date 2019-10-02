@@ -432,42 +432,42 @@ void task3_test_cases() {
 	cout << "Task 3 tests complete!" << endl;
 }
 
-// void bonus_task_test_cases() {
-// 	cout << "Bonus Task - Performance tests for queue operations" << endl;
-// 	cout << "If this test finishes under 5000ms then bonus marks will be given" << endl;
+void bonus_task_test_cases() {
+	cout << "Bonus Task - Performance tests for queue operations" << endl;
+	cout << "If this test finishes under 5000ms then bonus marks will be given" << endl;
 
-// 	std::chrono::time_point<std::chrono::steady_clock> start = std::chrono::steady_clock::now();
-// 	Queue_Linked_List queue;
+	std::chrono::time_point<std::chrono::steady_clock> start = std::chrono::steady_clock::now();
+	Queue_Linked_List queue;
 
-// 	for (int i = 0; i < 1e6; ++i) {
-// 		queue_linked_list_enqueue(queue, create_person_with_ticket("Chandra Nalaar", 21, FEMALE, "Phoenix Rising", PLATINUM));
-// 		queue_linked_list_is_empty(queue);
-// 		const Person* test1 =  queue_linked_list_front(queue);
-// 	}
+	for (int i = 0; i < 1e6; ++i) {
+		queue_linked_list_enqueue(queue, create_person_with_ticket("Chandra Nalaar", 21, FEMALE, "Phoenix Rising", PLATINUM));
+		queue_linked_list_is_empty(queue);
+		const Person* test1 =  queue_linked_list_front(queue);
+	}
 
-// 	for (int i = 0; i < 1e6; ++i) {
-// 		if (rand() % 2) {
-// 			queue_linked_list_enqueue(queue, create_person_with_ticket("Teysa Karlov", 21, FEMALE, "Orzhov Intrigue", GOLD));
-// 			queue_linked_list_is_empty(queue);
-// 			const Person* test2 = queue_linked_list_front(queue);
-// 		}
-// 		else {
-// 			const Person* test3 = queue_linked_list_front(queue);
-// 			queue_linked_list_dequeue(queue);
-// 			queue_linked_list_is_empty(queue);
-// 		}
-// 	}
+	for (int i = 0; i < 1e6; ++i) {
+		if (rand() % 2) {
+			queue_linked_list_enqueue(queue, create_person_with_ticket("Teysa Karlov", 21, FEMALE, "Orzhov Intrigue", GOLD));
+			queue_linked_list_is_empty(queue);
+			const Person* test2 = queue_linked_list_front(queue);
+		}
+		else {
+			const Person* test3 = queue_linked_list_front(queue);
+			queue_linked_list_dequeue(queue);
+			queue_linked_list_is_empty(queue);
+		}
+	}
 
-// 	while (!queue_linked_list_is_empty(queue)) {
-// 		const Person* test4 = queue_linked_list_front(queue);
-// 		queue_linked_list_dequeue(queue);
-// 	}
+	while (!queue_linked_list_is_empty(queue)) {
+		const Person* test4 = queue_linked_list_front(queue);
+		queue_linked_list_dequeue(queue);
+	}
 
-// 	std::chrono::time_point<std::chrono::steady_clock> end = std::chrono::steady_clock::now();
-// 	cout << "Execution time: " << std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count() << "ms" << endl;
+	std::chrono::time_point<std::chrono::steady_clock> end = std::chrono::steady_clock::now();
+	cout << "Execution time: " << std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count() << "ms" << endl;
 
-// 	cout << "Bonus Task tests complete!" << endl;
-// }
+	cout << "Bonus Task tests complete!" << endl;
+}
 
 int main(int argc, char *argv[]) {
 	task1_test_cases();
@@ -477,8 +477,8 @@ int main(int argc, char *argv[]) {
 	task3_test_cases();
 
 	// NOTE: Uncomment the two lines below to run the tests for the Bonus Task
-	//cout << endl << endl << endl;
-	//bonus_task_test_cases();
+	cout << endl << endl << endl;
+	bonus_task_test_cases();
 
 	return 0;
 }
