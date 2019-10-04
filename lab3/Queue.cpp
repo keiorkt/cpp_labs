@@ -83,7 +83,7 @@ const Person* queue_front(const Queue &queue) {
 }
 
 bool queue_is_empty(const Queue &queue) {
-	for (unsigned int i = 0; i < queue.queue_size; ++i) {
+	for (unsigned int i = 0; i < queue.queue_capacity; ++i) {
 		if (queue.queue_array[i] != nullptr)
 			return false;
 	}
@@ -91,7 +91,7 @@ bool queue_is_empty(const Queue &queue) {
 }
 
 void destroy_queue(Queue& queue) {
-	for (unsigned int i = 0; i < queue.queue_size; ++i)
+	for (unsigned int i = 0; i < queue.queue_capacity; ++i)
 		destroy_person(queue.queue_array[i]);
 
 	delete [] queue.queue_array;

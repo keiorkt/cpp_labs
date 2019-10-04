@@ -25,5 +25,6 @@ void queue_linked_list_enqueue(Queue_Linked_List&, Person*);
 void queue_linked_list_dequeue(Queue_Linked_List&);
 const Person* queue_linked_list_front(const Queue_Linked_List&);
 bool queue_linked_list_is_empty(const Queue_Linked_List&);
+void destroy_node(Node*);
 
 #endif /* QUEUE_LINKED_LIST_H_ */

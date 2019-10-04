@@ -45,8 +45,7 @@ void queue_linked_list_dequeue(Queue_Linked_List& queue_linked_list) {
     queue_linked_list.front = secondNode;
   }
 
-  delete frontNode;
-  frontNode = nullptr;
+  destroy_node(frontNode);
 }
 
 const Person* queue_linked_list_front(const Queue_Linked_List& queue_linked_list) {
@@ -55,4 +54,10 @@ const Person* queue_linked_list_front(const Queue_Linked_List& queue_linked_list
 
 bool queue_linked_list_is_empty(const Queue_Linked_List& queue_linked_list) {
   return queue_linked_list.front == nullptr;
+}
+
+void destroy_node(Node* node) {
+  destroy_person(node->person);
+  delete node;
+  node = nullptr;
 }
