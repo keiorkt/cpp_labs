@@ -1,0 +1,1027 @@
+Task 1
+
+Create a list of 4 people
+Ann
+Bob
+Charlie
+David
+
+Remove Ann
+Bob
+Charlie
+David
+
+Remove Charlie
+Bob
+David
+
+Remove David
+Bob
+
+Insert Emma before Bob
+Emma
+Bob
+
+Task 2
+
+Enroll lrrqk: Successful
+Enrolled: 1
+Status of rmwvcr: Not existed
+Status of yso: Not existed
+Enroll yoe: Successful
+Status of ndacx: Not existed
+Enrolled: 2
+Status of q: Not existed
+Enrolled: 2
+Waitlist: 0
+Drop u: Not existed
+Drop ssw: Not existed
+Status of rgxw: Not existed
+Waitlist: 0
+Enroll h: Successful
+Waitlist: 0
+Enroll mwafnn: Successful
+Status of pqcnj: Not existed
+Drop vvq: Not existed
+Enrolled: 4
+Enrolled: 4
+Status of hqjla: Not existed
+Enroll lwz: Successful
+Enroll xhv: Successful
+Enrolled: 6
+Enroll wk: Successful
+Waitlist: 0
+Waitlist: 0
+Status of bub: Not existed
+Enrolled: 7
+Enrolled: 7
+Enroll xkxv: Successful
+Waitlist: 0
+Waitlist: 0
+Enrolled: 8
+Enroll k: Successful
+Enroll xybts: Successful
+Enroll mhqzj: Successful
+Enrolled: 11
+Waitlist: 0
+Status of wj: Not existed
+Waitlist: 0
+Waitlist: 0
+Enroll rgxw: Successful
+Enrolled: 12
+Drop ed: Not existed
+Enroll gqpz: Successful
+Enroll lmcc: Successful
+Enroll nsajl: Successful
+Waitlist: 0
+Drop lwz: Successful
+Enroll lrrqk: Existed
+Enroll pb: Successful
+Drop hqjla: Not existed
+Drop y: Not existed
+Waitlist: 0
+Enroll wxkv: Successful
+Enrolled: 16
+Drop mwafnn: Successful
+Enrolled: 15
+Enrolled: 15
+Enrolled: 15
+Drop pqrtf: Not existed
+Status of l: Not existed
+Drop ixij: Not existed
+Enrolled: 15
+Enroll hbun: Successful
+Enroll roh: Successful
+Drop jmbi: Not existed
+Enroll u: Successful
+Waitlist: 0
+Enroll zhakx: Successful
+Enroll my: Successful
+Waitlist: 0
+Drop fjbfi: Not existed
+Drop wucwjj: Not existed
+Enrolled: 20
+Enrolled: 20
+Enroll vkovb: Successful
+Status of mwafnn: Not existed
+Enroll jp: Successful
+Drop a: Not existed
+Drop snevkp: Not existed
+Status of omc: Not existed
+Enroll rmwvcr: Successful
+Drop yoe: Successful
+Waitlist: 0
+Enroll snevkp: Successful
+Enroll wt: Successful
+Waitlist: 0
+Waitlist: 0
+Waitlist: 0
+Enroll mht: Successful
+Enroll snevkp: Existed
+Status of gdj: Not existed
+Drop lmcc: Successful
+Waitlist: 0
+Enroll nhpatw: Successful
+Status of wxkv: Enrolled
+Waitlist: 0
+Status of wk: Enrolled
+Status of l: Not existed
+Enroll rmwvcr: Existed
+Enroll mwol: Successful
+Enroll xhv: Existed
+Status of gxkzb: Not existed
+Enroll jp: Existed
+Enroll rnpuk: Successful
+Drop o: Not existed
+Status of ed: Not existed
+Status of yzq: Not existed
+Enroll o: Successful
+Status of l: Not existed
+Enrolled: 28
+Enroll jmbi: Successful
+Waitlist: 0
+Status of f: Not existed
+Drop a: Not existed
+Status of q: Not existed
+Status of mht: Enrolled
+Enrolled: 29
+Enroll nsajl: Existed
+Enroll so: Successful
+Drop k: Successful
+Enrolled: 29
+Waitlist: 0
+Drop h: Successful
+Enrolled: 28
+Enroll imi: Successful
+Enroll zhakx: Existed
+Enroll ahtkyv: Successful
+Waitlist: 0
+Enroll fjbfi: Successful
+Drop roh: Successful
+Status of yoe: Not existed
+Status of d: Not existed
+Waitlist: 0
+Enroll nedpwl: Successful
+Status of q: Not existed
+Enroll dbmim: Successful
+Drop h: Not existed
+Waitlist: 0
+Waitlist: 0
+Enroll so: Existed
+Enroll xuukhs: Successful
+Enroll lmcc: Successful
+Status of ieit: Not existed
+Enrolled: 34
+Enrolled: 34
+Enroll d: Successful
+Status of oocrwq: Not existed
+Drop nedpwl: Successful
+Waitlist: 0
+Drop dbmim: Successful
+Waitlist: 0
+Status of rgxw: Enrolled
+Enroll exe: Successful
+Status of yst: Not existed
+Enrolled: 34
+Drop oocrwq: Not existed
+Drop eol: Not existed
+Enroll k: Successful
+Enrolled: 35
+Enroll n: Successful
+Waitlist: 0
+Drop a: Not existed
+Drop pqrtf: Not existed
+Status of rnpuk: Enrolled
+Enroll snevkp: Existed
+Enrolled: 36
+Status of yoe: Not existed
+Enroll g: Successful
+Drop ssw: Not existed
+Enroll r: Successful
+Enroll wj: Successful
+Drop ar: Not existed
+Waitlist: 0
+Enrolled: 39
+Enrolled: 39
+Status of arim: Not existed
+Status of jp: Enrolled
+Drop rmwvcr: Successful
+Status of gdj: Not existed
+Enroll eol: Successful
+Enroll hqjla: Successful
+Enroll gxkzb: Successful
+Status of jp: Enrolled
+Enrolled: 41
+Status of yst: Not existed
+Waitlist: 0
+Enrolled: 41
+Waitlist: 0
+Drop wk: Successful
+Enrolled: 40
+Enroll ar: Successful
+Drop yso: Not existed
+Enroll d: Existed
+Status of fjbfi: Enrolled
+Enroll wj: Existed
+Enrolled: 41
+Drop fjbfi: Successful
+Enrolled: 40
+Enroll wxkv: Existed
+Enroll g: Existed
+Enroll i: Successful
+Drop pqrtf: Not existed
+Waitlist: 0
+Enroll pqcnj: Successful
+Drop s: Not existed
+Status of o: Enrolled
+Drop wt: Successful
+Drop hbun: Successful
+Enroll wj: Existed
+Enroll cf: Successful
+Enrolled: 41
+Enrolled: 41
+Enroll fjbfi: Successful
+Enroll yzq: Successful
+Enroll xkxv: Existed
+Status of czcdt: Not existed
+Drop mwafnn: Not existed
+Status of l: Not existed
+Enroll gqpz: Existed
+Enroll vs: Successful
+Status of y: Not existed
+Enroll nedpwl: Successful
+Enroll j: Successful
+Enroll ixij: Successful
+Status of fjbfi: Enrolled
+Enroll ieit: Successful
+Enrolled: 48
+Enrolled: 48
+Enrolled: 48
+Waitlist: 0
+Waitlist: 0
+Enroll durcx: Successful
+Enroll gbjqi: Successful
+Enrolled: 50
+Waitlist: 0
+Enroll wucwjj: Successful
+Enrolled: 50
+Status of wxkv: Enrolled
+Enroll nhpatw: Existed
+Enrolled: 50
+Waitlist: 1
+Enrolled: 50
+Enrolled: 50
+Enroll xkxv: Existed
+Enroll e: Successful
+Enroll omc: Successful
+Waitlist: 3
+Enroll yoe: Successful
+Enroll wk: Successful
+Enroll lwz: Successful
+Enrolled: 50
+Waitlist: 6
+Status of vvq: Not existed
+Status of yoe: Waitlisted
+Drop zgayn: Not existed
+Enroll wk: Existed
+Status of wt: Not existed
+Enroll ssw: Successful
+Enroll mhqzj: Existed
+Waitlist: 7
+Drop fjbfi: Successful
+Enroll my: Existed
+Status of u: Enrolled
+Status of hqjla: Enrolled
+Status of arim: Not existed
+Enroll ixij: Existed
+Status of czcdt: Not existed
+Enroll q: Successful
+Waitlist: 7
+Enroll bub: Successful
+Enroll dbmim: Successful
+Enroll arim: Successful
+Enrolled: 50
+Waitlist: 10
+Enrolled: 50
+Enroll lwz: Existed
+Status of rnpuk: Enrolled
+Waitlist: 10
+Enroll cge: Successful
+Enrolled: 50
+Enroll ed: Successful
+Waitlist: 12
+Enroll xybts: Existed
+Waitlist: 12
+Enroll k: Existed
+Drop kg: Not existed
+Enroll lrrqk: Existed
+Enroll ndacx: Successful
+Waitlist: 13
+Status of yso: Not existed
+Enrolled: 50
+Enroll kg: Successful
+Enroll wj: Existed
+Waitlist: 14
+Enroll ed: Existed
+Enrolled: 50
+Drop ixij: Successful
+Status of vkovb: Enrolled
+Waitlist: 13
+Enrolled: 50
+Waitlist: 13
+Waitlist: 13
+Enroll gyjiej: Successful
+Drop bub: Successful
+Enroll d: Existed
+Status of my: Enrolled
+Enroll f: Successful
+Status of vs: Enrolled
+Enroll lmcc: Existed
+Enroll jp: Existed
+Drop m: Not existed
+Status of imi: Enrolled
+Drop r: Successful
+Status of l: Not existed
+Waitlist: 13
+Status of ixij: Not existed
+Enrolled: 50
+Enrolled: 50
+Enroll pqrtf: Successful
+Enrolled: 50
+Waitlist: 14
+Waitlist: 14
+Enroll nhpatw: Existed
+Enroll gdj: Successful
+Drop oocrwq: Not existed
+Enrolled: 50
+Status of ed: Waitlisted
+Enrolled: 50
+Waitlist: 15
+Drop yvu: Not existed
+Waitlist: 15
+Enrolled: 50
+Status of o: Enrolled
+Enroll vmd: Successful
+Drop n: Successful
+Enrolled: 50
+Enroll snevkp: Existed
+Waitlist: 15
+Drop exe: Successful
+Enrolled: 50
+Drop ssw: Successful
+Drop wt: Not existed
+Waitlist: 13
+Drop o: Successful
+Drop h: Not existed
+Enroll durcx: Existed
+Enrolled: 50
+Waitlist: 12
+Drop pqrtf: Successful
+Drop nedpwl: Successful
+Status of h: Not existed
+Status of ed: Waitlisted
+Waitlist: 10
+Enrolled: 50
+Enrolled: 50
+Waitlist: 10
+Enrolled: 50
+Status of exe: Not existed
+Status of nedpwl: Not existed
+Status of lwz: Enrolled
+Status of ip: Not existed
+Enroll u: Existed
+Enroll u: Existed
+Enrolled: 50
+Status of nedpwl: Not existed
+Waitlist: 10
+Waitlist: 10
+Enrolled: 50
+Enrolled: 50
+Status of ieit: Enrolled
+Enrolled: 50
+Enroll ed: Existed
+Status of f: Waitlisted
+Enroll gyjiej: Existed
+Enroll m: Successful
+Drop lrrqk: Successful
+Status of cf: Enrolled
+Status of hqjla: Enrolled
+Drop snevkp: Successful
+Enroll ndacx: Existed
+Waitlist: 9
+Enroll gbjqi: Existed
+Enroll i: Existed
+Enroll g: Existed
+Enrolled: 50
+Drop o: Not existed
+Status of jp: Enrolled
+Enroll wk: Existed
+Drop roh: Not existed
+Enroll gqpz: Existed
+Drop yzq: Successful
+Drop jmbi: Successful
+Status of ahtkyv: Enrolled
+Enroll kg: Existed
+Drop durcx: Successful
+Enroll arim: Existed
+Drop wucwjj: Successful
+Drop ip: Not existed
+Enrolled: 50
+Enroll lwz: Existed
+Waitlist: 5
+Enroll lrrqk: Successful
+Drop ed: Successful
+Enrolled: 50
+Drop jp: Successful
+Status of hbun: Not existed
+Drop pqcnj: Successful
+Drop m: Successful
+Drop diuh: Not existed
+Enroll n: Successful
+Waitlist: 3
+Waitlist: 3
+Enrolled: 50
+Waitlist: 3
+Enrolled: 50
+Status of tvk: Not existed
+Enroll wxkv: Existed
+Waitlist: 3
+Status of lwz: Enrolled
+Drop bub: Not existed
+Status of n: Waitlisted
+Drop dbmim: Successful
+Enroll cf: Existed
+Waitlist: 2
+Drop wj: Successful
+Status of u: Enrolled
+Enrolled: 50
+Enroll wucwjj: Successful
+Waitlist: 2
+Enrolled: 50
+Enroll nedpwl: Successful
+Drop pqcnj: Not existed
+Status of f: Enrolled
+Enroll g: Existed
+Waitlist: 3
+Waitlist: 3
+Status of rnpuk: Enrolled
+Enrolled: 50
+Drop zhakx: Successful
+Enrolled: 50
+Enrolled: 50
+Status of e: Enrolled
+Enroll xuukhs: Existed
+Drop ed: Not existed
+Drop i: Successful
+Status of arim: Enrolled
+Drop xybts: Successful
+Enrolled: 50
+Status of jmbi: Not existed
+Enroll xuukhs: Existed
+Enroll ayzfhe: Successful
+Status of r: Not existed
+Enrolled: 50
+Drop im: Not existed
+Drop fjbfi: Not existed
+Enroll cge: Existed
+Status of eol: Enrolled
+Waitlist: 1
+Drop yst: Not existed
+Status of gyjiej: Enrolled
+Drop my: Successful
+Drop xkxv: Successful
+Enroll fjbfi: Successful
+Enroll l: Successful
+Enroll yoe: Existed
+Enroll wxkv: Existed
+Status of rmwvcr: Not existed
+Drop ssw: Not existed
+Enroll ssw: Successful
+Waitlist: 2
+Waitlist: 2
+Waitlist: 2
+Enroll imi: Existed
+Enroll wk: Existed
+Enrolled: 50
+Enroll czcdt: Successful
+Enroll cspwvq: Successful
+Enroll ieit: Existed
+Drop roh: Not existed
+Status of durcx: Not existed
+Enrolled: 50
+Status of hqjla: Enrolled
+Enroll durcx: Successful
+Enroll nsajl: Existed
+Waitlist: 5
+Status of xybts: Not existed
+Enrolled: 50
+Waitlist: 5
+Enrolled: 50
+Enroll ndacx: Existed
+Waitlist: 5
+Waitlist: 5
+Enroll omc: Existed
+Enroll jp: Successful
+Waitlist: 6
+Enroll a: Successful
+Waitlist: 7
+Enrolled: 50
+Waitlist: 7
+Enroll xuukhs: Existed
+Enroll wt: Successful
+Status of rnpuk: Enrolled
+Enroll wj: Successful
+Enroll ahtkyv: Existed
+Enroll mhqzj: Existed
+Drop so: Successful
+Waitlist: 8
+Waitlist: 8
+Waitlist: 8
+Enrolled: 50
+Enrolled: 50
+Waitlist: 8
+Enroll gyjiej: Existed
+Enrolled: 50
+Enroll lrrqk: Existed
+Enroll g: Existed
+Enroll ndacx: Existed
+Status of snevkp: Not existed
+Enroll ayzfhe: Existed
+Enroll s: Successful
+Waitlist: 9
+Status of wxkv: Enrolled
+Enrolled: 50
+Enroll i: Successful
+Enrolled: 50
+Enrolled: 50
+Enrolled: 50
+Enrolled: 50
+Waitlist: 10
+Enrolled: 50
+Status of xhv: Enrolled
+Enroll hqjla: Existed
+Enrolled: 50
+Drop zhakx: Not existed
+Waitlist: 10
+Status of r: Not existed
+Enrolled: 50
+Waitlist: 10
+Enroll ieit: Existed
+Enroll lmcc: Existed
+Status of so: Not existed
+Enroll ar: Existed
+Enroll d: Existed
+Drop l: Successful
+Enroll dbmim: Successful
+Enroll lmcc: Existed
+Enroll hqjla: Existed
+Status of xybts: Not existed
+Status of roh: Not existed
+Waitlist: 10
+Drop diuh: Not existed
+Enroll im: Successful
+Enrolled: 50
+Waitlist: 11
+Enroll mwol: Existed
+Enroll hqjla: Existed
+Enroll nsajl: Existed
+Waitlist: 11
+Enroll cge: Existed
+Enrolled: 50
+Enroll hqjla: Existed
+Enroll yvu: Successful
+Drop ip: Not existed
+Waitlist: 12
+Drop tvk: Not existed
+Enroll e: Existed
+Enrolled: 50
+Enroll arim: Existed
+Enroll ixij: Successful
+Status of rgxw: Enrolled
+Drop vmd: Successful
+Enroll xkxv: Successful
+Enrolled: 50
+Enrolled: 50
+Enrolled: 50
+Enrolled: 50
+Waitlist: 13
+Drop s: Successful
+Status of jp: Waitlisted
+Enroll gbjqi: Existed
+Waitlist: 12
+Enroll pqcnj: Successful
+Enroll ieit: Existed
+Drop g: Successful
+Enrolled: 50
+Enrolled: 50
+Enrolled: 50
+Waitlist: 12
+Enrolled: 50
+Status of ixij: Waitlisted
+Waitlist: 12
+Drop my: Not existed
+Drop wucwjj: Successful
+Enroll yst: Successful
+Enrolled: 50
+Status of cwmuq: Not existed
+Waitlist: 12
+Waitlist: 12
+Enroll q: Existed
+Drop vs: Successful
+Enrolled: 50
+Enroll ndacx: Existed
+Enroll vvq: Successful
+Enroll xybts: Successful
+Enroll cf: Existed
+Waitlist: 13
+Enrolled: 50
+Enrolled: 50
+Drop zhakx: Not existed
+Drop r: Not existed
+Drop vs: Not existed
+Drop a: Successful
+Drop cspwvq: Successful
+Drop vvq: Successful
+Enrolled: 50
+Waitlist: 10
+Enroll mht: Existed
+Waitlist: 10
+Waitlist: 10
+Waitlist: 10
+Waitlist: 10
+Enrolled: 50
+Enrolled: 50
+Enroll vs: Successful
+Enroll ieit: Existed
+Status of vvq: Not existed
+Drop e: Successful
+Enrolled: 50
+Enroll omc: Existed
+Enroll diuh: Successful
+Enrolled: 50
+Enrolled: 50
+Drop hbun: Not existed
+Drop ndacx: Successful
+Enroll wt: Existed
+Drop wxkv: Successful
+Drop imi: Successful
+Waitlist: 8
+Enrolled: 50
+Status of gyjiej: Enrolled
+Enroll wucwjj: Successful
+Enroll ieit: Existed
+Drop s: Not existed
+Enrolled: 50
+Waitlist: 9
+Waitlist: 9
+Enroll d: Existed
+Enrolled: 50
+Waitlist: 9
+Enrolled: 50
+Status of pqcnj: Waitlisted
+Enroll nhpatw: Existed
+Enroll roh: Successful
+Drop f: Successful
+Enroll oocrwq: Successful
+Waitlist: 10
+Enrolled: 50
+Status of y: Not existed
+Status of gyjiej: Enrolled
+Status of gdj: Enrolled
+Drop ssw: Successful
+Enrolled: 50
+Enrolled: 50
+Waitlist: 9
+Drop gdj: Successful
+Enrolled: 50
+Enroll gyjiej: Existed
+Enroll oocrwq: Existed
+Status of bgjkh: Not existed
+Enroll m: Successful
+Drop diuh: Successful
+Waitlist: 8
+Drop gxkzb: Successful
+Waitlist: 7
+Drop ahtkyv: Successful
+Enroll hbun: Successful
+Waitlist: 7
+Enrolled: 50
+Drop yst: Successful
+Drop cge: Successful
+Status of u: Enrolled
+Waitlist: 5
+Enrolled: 50
+Enroll xuukhs: Existed
+Enroll f: Successful
+Drop mwafnn: Not existed
+Enrolled: 50
+Enroll odjph: Successful
+Waitlist: 7
+Status of my: Not existed
+Enroll rgxw: Existed
+Status of wj: Enrolled
+Waitlist: 7
+Waitlist: 7
+Waitlist: 7
+Enroll czcdt: Existed
+Enroll ed: Successful
+Status of zhakx: Not existed
+Waitlist: 8
+Enroll m: Existed
+Enrolled: 50
+Drop yst: Not existed
+Enrolled: 50
+Enrolled: 50
+Enroll eol: Existed
+Enrolled: 50
+Drop xuukhs: Successful
+Enroll r: Successful
+Enroll xkxv: Existed
+Enroll ssw: Successful
+Enroll lwz: Existed
+Enroll k: Existed
+Enroll kg: Existed
+Enroll xkxv: Existed
+Waitlist: 9
+Enroll e: Successful
+Waitlist: 10
+Waitlist: 10
+Status of vkovb: Enrolled
+Drop zgayn: Not existed
+Status of hh: Not existed
+Enrolled: 50
+Enroll n: Existed
+Waitlist: 10
+Enroll vmd: Successful
+Enroll nhpatw: Existed
+Waitlist: 11
+Enroll yzq: Successful
+Enrolled: 50
+Drop vmd: Successful
+Enrolled: 50
+Status of h: Not existed
+Waitlist: 11
+Drop xuukhs: Not existed
+Status of yzq: Waitlisted
+Enroll dbmim: Existed
+Enroll czcdt: Existed
+Drop hbun: Successful
+Waitlist: 10
+Enroll ar: Existed
+Status of arim: Enrolled
+Drop yoe: Successful
+Enroll cge: Successful
+Status of ayzfhe: Enrolled
+Drop pqcnj: Successful
+Status of gyjiej: Enrolled
+Drop yso: Not existed
+Enroll l: Successful
+Status of wqq: Not existed
+Enroll roh: Existed
+Status of o: Not existed
+Waitlist: 10
+Enroll mhqzj: Existed
+Enroll durcx: Existed
+Waitlist: 10
+Enrolled: 50
+Drop e: Successful
+Status of lrrqk: Enrolled
+Enrolled: 50
+Waitlist: 9
+Enroll wj: Existed
+Status of fjbfi: Enrolled
+Enrolled: 50
+Enrolled: 50
+Drop eol: Successful
+Enroll wt: Existed
+Status of ssw: Waitlisted
+Waitlist: 8
+Drop mwol: Successful
+Enroll wt: Existed
+Status of im: Enrolled
+Enroll q: Existed
+Enroll a: Successful
+Status of omc: Enrolled
+Status of lmcc: Enrolled
+Enroll eol: Successful
+Drop r: Successful
+Drop yzq: Successful
+Enroll n: Existed
+Enroll s: Successful
+Status of j: Enrolled
+Status of wk: Enrolled
+Status of jp: Enrolled
+Status of mwol: Not existed
+Enrolled: 50
+Enroll kg: Existed
+Enrolled: 50
+Enrolled: 50
+Drop wqq: Not existed
+Status of h: Not existed
+Waitlist: 8
+Waitlist: 8
+Enroll oocrwq: Existed
+Waitlist: 8
+Enrolled: 50
+Enroll wj: Existed
+Enroll czcdt: Existed
+Enroll xuukhs: Successful
+Enroll eol: Existed
+Drop rnpuk: Successful
+Enrolled: 50
+Drop q: Successful
+Status of cspwvq: Not existed
+Drop mwol: Not existed
+Drop wj: Successful
+Enroll mhqzj: Existed
+Drop cge: Successful
+Enroll wxkv: Successful
+Enrolled: 50
+Drop zhakx: Not existed
+Enroll imi: Successful
+Enrolled: 50
+Enroll ahtkyv: Successful
+Waitlist: 8
+Enrolled: 50
+Enroll k: Existed
+Waitlist: 8
+Drop mwafnn: Not existed
+Drop n: Successful
+Enroll cwmuq: Successful
+Enroll ssw: Existed
+Enrolled: 50
+Status of eol: Waitlisted
+Enroll hbun: Successful
+Enrolled: 50
+Status of a: Waitlisted
+Enrolled: 50
+Enroll cge: Successful
+Drop kg: Successful
+Enroll bgjkh: Successful
+Enroll nsajl: Existed
+Enroll o: Successful
+Waitlist: 11
+Enroll ip: Successful
+Drop ip: Successful
+Enrolled: 50
+Status of nedpwl: Enrolled
+Waitlist: 11
+Enroll gbjqi: Existed
+Enroll omc: Existed
+Waitlist: 11
+Enrolled: 50
+Status of odjph: Enrolled
+Enroll ieit: Existed
+Enroll arim: Existed
+Enroll hbun: Existed
+Enrolled: 50
+Waitlist: 11
+Status of pqrtf: Not existed
+Waitlist: 11
+Enroll zhakx: Successful
+Waitlist: 12
+Enrolled: 50
+Status of durcx: Enrolled
+Enroll h: Successful
+Drop vkovb: Successful
+Status of pqrtf: Not existed
+Drop ieit: Successful
+Enroll hun: Successful
+Enroll snevkp: Successful
+Waitlist: 13
+Waitlist: 13
+Status of wt: Enrolled
+Waitlist: 13
+Enroll cwmuq: Existed
+Enroll s: Existed
+Enroll fjbfi: Existed
+Enroll g: Successful
+Enrolled: 50
+Enrolled: 50
+Enroll i: Existed
+Status of roh: Enrolled
+Enrolled: 50
+Enroll r: Successful
+Enroll yoe: Successful
+Drop xybts: Successful
+Enroll czcdt: Existed
+Enrolled: 50
+Status of ip: Not existed
+Drop pb: Successful
+Enrolled: 50
+Enroll xuukhs: Existed
+Enrolled: 50
+Enroll dbmim: Existed
+Enroll hh: Successful
+Waitlist: 15
+Status of pqrtf: Not existed
+Waitlist: 15
+Status of ssw: Enrolled
+Drop hqjla: Successful
+Enrolled: 50
+Enroll cge: Existed
+Enrolled: 50
+Drop lmcc: Successful
+Enroll gxkzb: Successful
+Drop h: Successful
+Enroll d: Existed
+Status of ixij: Enrolled
+Enrolled: 50
+Waitlist: 13
+Enroll yst: Successful
+Enroll gyjiej: Existed
+Waitlist: 14
+Waitlist: 14
+Enroll u: Existed
+Enroll vvq: Successful
+Drop lmcc: Not existed
+Enroll d: Existed
+Enroll ssw: Existed
+Status of lrrqk: Enrolled
+Enroll hh: Existed
+Enroll u: Existed
+Enrolled: 50
+Enroll gqpz: Existed
+Enrolled: 50
+Enroll exe: Successful
+Enroll snevkp: Existed
+Enroll arim: Existed
+Drop xhv: Successful
+Drop rmwvcr: Not existed
+Enroll hqjla: Successful
+Drop diuh: Not existed
+Enroll g: Existed
+Enrolled: 50
+Drop ed: Successful
+Status of hqjla: Waitlisted
+Waitlist: 15
+Enroll n: Successful
+Status of hh: Waitlisted
+Enroll pb: Successful
+Enrolled: 50
+Enroll xuukhs: Existed
+Waitlist: 17
+Waitlist: 17
+Enroll so: Successful
+Enroll xhv: Successful
+Enroll cge: Existed
+Drop e: Not existed
+Drop odjph: Successful
+Enrolled: 50
+Waitlist: 18
+Enrolled: 50
+Status of cge: Enrolled
+Enroll yst: Existed
+Enroll pb: Existed
+Drop mht: Successful
+Status of xkxv: Enrolled
+Enroll zhakx: Existed
+Enroll vmd: Successful
+Waitlist: 18
+Status of snevkp: Waitlisted
+Enroll kg: Successful
+Enroll ed: Successful
+Waitlist: 20
+Status of gdj: Not existed
+Waitlist: 20
+Enroll zhakx: Existed
+Status of czcdt: Enrolled
+Enroll vvq: Existed
+Waitlist: 20
+Drop d: Successful
+Enrolled: 50
+Status of gxkzb: Waitlisted
+Status of cwmuq: Enrolled
+Waitlist: 19
+Enroll rnpuk: Successful
+Enroll gyjiej: Existed
+Drop mht: Not existed
+Enroll fjbfi: Existed
+Status of jmbi: Not existed
+Enroll jmbi: Successful
+Status of f: Enrolled
+Status of bgjkh: Enrolled
+Enrolled: 50
+Drop my: Not existed
+Enroll hqjla: Existed
+Enrolled: 50
+Enrolled: 50
+Enrolled: 50
+Status of mwafnn: Not existed
+Enroll cge: Existed
+Status of wucwjj: Enrolled
+Enrolled: 50
+Status of kg: Waitlisted
+Drop bub: Not existed
+Enroll nedpwl: Existed
+Status of mht: Not existed
+Waitlist: 21
+Waitlist: 21
+Enrolled: 50
+Waitlist: 21
+Waitlist: 21
+Status of vvq: Waitlisted
+Waitlist: 21
+Enrolled: 50
+Enroll hun: Existed
+COMP2012Honors : Enrolled 50, Waitlisted 21
