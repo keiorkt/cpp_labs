@@ -16,21 +16,12 @@ LinkedList::~LinkedList() {
 
 // TODO
 void LinkedList::insert(Node* prev, Node* ins) {
-  ++this->_size;
-
-  if (this->size() == 0 || this->get_head() == nullptr) {
-    this->head = new Node();
-    this->tail = ins;
-    this->head->next = ins;
-    return;
-  }
-
   ins->next = prev->next;
   prev->next = ins;
-
   if (prev == tail) {
     this->tail = ins;
   }
+  ++this->_size;
 }
 
 
