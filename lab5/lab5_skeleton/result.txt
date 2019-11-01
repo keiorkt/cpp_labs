@@ -1,0 +1,8 @@
+./lab5_main
+One empty LinkedListQueue and one empty LinkedListStack have been created for you to test.
+
+1. LinkedListQueue
+2. LinkedListStack
+Q: Quit
+
+Please select the Container Type: 

@@ -57,21 +57,21 @@ int main()
     cout << endl;
 
     cout << "Remove Ann" << endl;
-    ll->remove(ll->get_head(), Ann);
+    ll->remove(Ann);
     for (Node* it=ll->get_head()->next; it!=nullptr; it=it->next) {
         cout << it->content << endl;
     }
     cout << endl;
 
     cout << "Remove Charlie" << endl;
-    ll->remove(Bob, Charlie);
+    ll->remove(Charlie);
     for (Node* it=ll->get_head()->next; it!=nullptr; it=it->next) {
         cout << it->content << endl;
     }
     cout << endl;
 
     cout << "Remove David" << endl;
-    ll->remove(Bob, David);
+    ll->remove(David);
     for (Node* it=ll->get_head()->next; it!=nullptr; it=it->next) {
         cout << it->content << endl;
     }

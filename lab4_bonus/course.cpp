@@ -23,7 +23,7 @@ string Course::drop(const string &studentName)
 {
     for (Node* node = this->studentList.get_head(); node->next; node = node->next) {
         if (node->next->content == studentName) {
-            this->studentList.remove(node, node->next);
+            this->studentList.remove(node->next);
             return "Successful";
         }
     }

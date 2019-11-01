@@ -12,6 +12,7 @@ LinkedList::~LinkedList() {
   while(this->size() > 0) {
     this->remove(this->get_head(), this->get_head()->next);
   }
+  delete this->get_head();
 }
 
 // TODO
