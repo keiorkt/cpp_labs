@@ -13,7 +13,11 @@ LinkedListAbstractSequentialContainer::LinkedListAbstractSequentialContainer() /
 // TODO
 LinkedListAbstractSequentialContainer::LinkedListAbstractSequentialContainer(const LinkedListAbstractSequentialContainer& linkedListAbstractContainer) /* : */ {
 	this->numElements = linkedListAbstractContainer.numElements;
-	this->sentinel = linkedListAbstractContainer.sentinel;
+	this->sentinel = new LinkedListNode;
+	this->sentinel->prev = this->sentinel->next = sentinel;
+	for (LinkedListNode* current = linkedListAbstractContainer.sentinel->next; current != linkedListAbstractContainer.sentinel; current = current->next) {
+		this->insertAtIndex(current->data, getNumElements());
+	}
 }
 
 LinkedListAbstractSequentialContainer& LinkedListAbstractSequentialContainer::operator=(const LinkedListAbstractSequentialContainer& rhs) {
@@ -21,18 +25,18 @@ LinkedListAbstractSequentialContainer& LinkedListAbstractSequentialContainer::op
 	// TODO
 
 	this->numElements = rhs.numElements;
-	this->sentinel = rhs.sentinel;
+	this->sentinel = new LinkedListNode;
+	this->sentinel->prev = this->sentinel->next = sentinel;
+	for (LinkedListNode* current = rhs.sentinel->next; current != rhs.sentinel; current = current->next) {
+		this->insertAtIndex(current->data, getNumElements());
+	}
 	return *this;
 }
 
 LinkedListAbstractSequentialContainer::~LinkedListAbstractSequentialContainer() {
 	// TODO
-	for (LinkedListNode* current = sentinel->next;
-			 current != sentinel;
-		 	 current = current->next,
-		 	 delete current->prev) {}
+	for (LinkedListNode* current = sentinel->next; current != sentinel; current = current->next, delete current->prev) {}
 	delete sentinel;
-	sentinel = nullptr;
 }
 
 
@@ -65,7 +69,7 @@ unsigned int LinkedListAbstractSequentialContainer::getNumElements() const {
 // Return sentinel garbage data if index out-of-range.
 const UselessDataObject& LinkedListAbstractSequentialContainer::getElementAtIndex(unsigned int index) const {
 	// TODO
-	if (index < 0 || index > getNumElements()) {
+	if (index > getNumElements()) {
 		return sentinel->data;
 	}
 
@@ -75,7 +79,7 @@ const UselessDataObject& LinkedListAbstractSequentialContainer::getElementAtInde
 // Do nothing if index out-of-range.
 // TODO
 void LinkedListAbstractSequentialContainer::insertAtIndex(const UselessDataObject& element, unsigned int index) {
-	if (index < 0 || index > getNumElements()) { return; }
+	if (index > getNumElements()) { return; }
 
 	LinkedListNode* current = getNodeAtIndex(index);
 	LinkedListNode* insert_node = new LinkedListNode{element, current->prev, current};
@@ -86,7 +90,7 @@ void LinkedListAbstractSequentialContainer::insertAtIndex(const UselessDataObjec
 
 // Don't remove any node, and return sentinel garbage data, if index out-of-range.
 UselessDataObject LinkedListAbstractSequentialContainer::removeAtIndex(unsigned int index) {
-	if (index < 0 || index > getNumElements()) {
+	if (index > getNumElements()) {
 		return sentinel->data;
 	}
 
@@ -114,7 +118,7 @@ UselessDataObject LinkedListAbstractSequentialContainer::removeAtIndex(unsigned 
 // Return sentinel if index out-of-range.
 // TODO
 LinkedListAbstractSequentialContainer::LinkedListNode* LinkedListAbstractSequentialContainer::getNodeAtIndex(unsigned int index) const {
-	if (index < 0 || index > getNumElements()) {
+	if (index > getNumElements()) {
 		return sentinel;
 	}
 
